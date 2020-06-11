@@ -5,9 +5,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //<React.StrictMode>
+    <App myExp={5*10} title="This is the title" body={["This is the body with ",<b> bold expression</b>, " ", 5+20]} imageUrl="https://picsum.photos/seed/picsum/220/100" />,
+    
+//  </React.StrictMode>,
   document.getElementById('root')
 );
 
